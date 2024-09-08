@@ -1,0 +1,8 @@
+.blueText{
+    color: blue;
+}
+
+.deshabilitar{
+    background: #ccc;
+    cursor: not-allowed;
+}
