@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Mi curso javascript</h1>
+    <div id="parrafo">
+      <p>Este es mi primer parrafo</p>
+      <p>Este es mi segundo parrafo</p>
+      <p>Este es mi tercer parrafo</p>
+      <button id="cambioColor">Cambiar color a azul</button>
+    </div>
+    <h2>Formulario con alerta</h2>
+    <div>
+      <form>
+        <label>Ingrese un texto</label>
+        <input id="form">
+        <button id="alertar">Mostrar alerta</button>
+      </form>
+    </div>
+    <div>
+      <h2>Lista con elementos</h2>
+      <ul>
+        <li id="uno">Elemento 1</li>
+        <li id="dos">Elemento 2</li>
+        <li id="tres">Elemento 3</li>
+        <li id="cuatro">Elemento 4</li>
+      </ul>
+    </div>
+    <div>
+      <h3>Deshabilitar/habilitar campo</h3>
+      <input id="campo" placeholder="Ingresar texto">
+      <button id="deshabilitar">Deshabilitar campo</button>
+      <button id="habilitar">Habilitar campo</button>
+    </div>
+
+    <div id="guardado">
+      <form id="emailForm">
+        <label>Correo electronico</label>
+        <input type="email" id="emailInput">
+        <button id="submit">Guardar</button>
+      </form>
+    </div>
+    <div id="emailDisplay"></div>
+
+    <script type="module" src="1.js"></script>
+  
+  </body>
+</html>
